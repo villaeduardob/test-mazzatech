@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', 'LoginController@index')->name('login');
+
+Route::get('patients', 'PatientsController@index')->name('patients');
+Route::post('patients/store', 'PatientsController@store')->name('patients.store');
+Route::get('patients/{id}', 'PatientsController@edit')->name('patients.edit');
+Route::put('patients/update', 'PatientsController@update')->name('patients.update');
+Route::get('patients/delete/{id}', 'PatientsController@destroy')->name('patients.destroy');
