@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // home
-// Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 // patients
 Route::get('patients', 'PatientsController@index')->name('patients');
