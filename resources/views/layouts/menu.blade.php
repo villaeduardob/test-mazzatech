@@ -7,12 +7,12 @@
                     Dashboard <span class="sr-only">(current)</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="patients">
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="users">
                     <span data-feather="users"></span>
                     Usuários
                 </a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="patients">
                     <span data-feather="users"></span>

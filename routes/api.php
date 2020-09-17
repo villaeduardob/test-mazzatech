@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::post('login', 'api\\DoctorController@login');
+Route::post('login', 'api\\UsersController@login');
 
 Route::group(['middleware' => 'auth:api'], function() {
-    Route::post('doctors', 'api\\DoctorController@list');
+    Route::post('doctors', 'api\\UsersController@list');
 });
