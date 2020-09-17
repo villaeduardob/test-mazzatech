@@ -20,3 +20,9 @@ Route::post('patients/store', 'PatientsController@store')->name('patients.store'
 Route::get('patients/{id}', 'PatientsController@edit')->name('patients.edit');
 Route::put('patients/update', 'PatientsController@update')->name('patients.update');
 Route::get('patients/delete/{id}', 'PatientsController@destroy')->name('patients.destroy');
+
+Route::get('doctors', 'DoctorsController@index')->name('doctors');
+Route::post('doctors/store', 'DoctorsController@store')->name('doctors.store');
+Route::get('doctors/{id}', 'DoctorsController@edit')->name('doctors.edit');
+Route::put('doctors/update', 'DoctorsController@update')->name('doctors.update');
+Route::get('doctors/delete/{id}', 'DoctorsController@destroy')->name('doctors.destroy');

@@ -20,13 +20,13 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="medics">
+                <a class="nav-link" href="doctors">
                     <span data-feather="users"></span>
                     Médicos
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="medics">
+                <a class="nav-link" href="schedules">
                     <span data-feather="clock"></span>
                     Agendamentos
                 </a>
